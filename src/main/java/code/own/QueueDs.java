@@ -52,4 +52,8 @@ public class QueueDs {
 		return lineQueues.length;
 	}
 	
+	public int peek() {
+		return lineQueues[currentPointer-1];
+	}
+	
 }
